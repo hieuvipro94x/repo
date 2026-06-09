@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.tmp
+
+# Build output
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet
+packages/
+*.nupkg
+
+# Publish / Setup
+InstallerOutput/
+ReleasePackages/
+
+# Logs
+*.log
+
+# Windows
+Thumbs.db
+Desktop.ini
