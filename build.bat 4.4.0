@@ -1,3 +1,0 @@
-@echo off
-powershell -NoProfile -ExecutionPolicy Bypass -File "D:\Nam\Nam Test\SX3 SCANER\SX3 SCANER\SX3 SCANER\SX3 SCANER\BuildTools\release-all.ps1" -Version %1
-pause

@@ -1,9 +1,9 @@
 # Visual Studio
 .vs/
-*.user
 *.suo
+*.user
 
-# Build
+# Build output
 bin/
 obj/
 
@@ -13,16 +13,9 @@ packages/
 # Installer
 InstallerOutput/
 
-# Deploy output
-deploy/server-files/updates/
-
-# Databases
-*.db
-*.sqlite
-*.sqlite3
-*.db-wal
-*.db-shm
-*.db-journal
-
 # Logs
 *.log
+
+# Windows
+Thumbs.db
+Desktop.ini
