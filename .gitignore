@@ -2,6 +2,8 @@
 .vs/
 *.suo
 *.user
+*.userosscache
+*.sln.docstates
 
 # Build output
 bin/
@@ -10,8 +12,9 @@ obj/
 # NuGet
 packages/
 
-# Installer
+# Installer / Release
 InstallerOutput/
+deploy/
 
 # Logs
 *.log
@@ -19,3 +22,13 @@ InstallerOutput/
 # Windows
 Thumbs.db
 Desktop.ini
+
+# Rider / ReSharper (nếu có)
+_ReSharper*/
+*.DotSettings.user
+
+# Publish
+Publish/
+
+# Test Results
+TestResults/
